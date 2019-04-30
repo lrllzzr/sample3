@@ -41,14 +41,14 @@
 	 	}
 	%>
 	<div class="well">
-		<form method="post" action="add.jsp">
+		<form method="post" action="/hta/member/add.jsp">
 			<div class="form-group">
 				<label>이름</label>
 				<input type="text" class="form-control" name="name" />
 			</div>
 			<div class="form-group">
 				<label>아이디</label>
-				<input type="text" class="form-control" name="id" />
+				<input type="text" class="form-control" name="id"/>
 			</div>
 			<div class="form-group">
 				<label>비밀번호</label>
